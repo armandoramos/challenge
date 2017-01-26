@@ -1,0 +1,13 @@
+<div class="main-container rows">
+    <div class="users columns">
+        <div class="users-title">Pick User</div>
+        <div class="users-container columns">
+            <div ng-repeat="user in main.users" ng-click="main.ChooseUser(user.id)" class="user-box center">
+                {{ user.name }}    
+            </div>
+        </div>
+    </div>
+    <div class="photo-area columns center">
+        <ui-view></ui-view>
+    </div>
+</div>

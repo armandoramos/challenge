@@ -1,0 +1,139 @@
+body {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    font-family: Verdana;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    height:10%;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+
+    align-items: center;
+
+    background-color: #222;
+}
+
+.photo-area {
+    width: 100%;
+    height: 100%;
+}
+
+.header .title {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.header .title a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.main-container {
+    width: 100%;
+    height: 90%;
+
+    background-color: ccc;
+}
+
+.users {
+    width: 200px;
+    border-right: 2px dotted #222;
+}
+
+.users .users-title {
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.users-container {
+    margin-top: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.user-box {
+    width: 150px;
+    height: 50px;
+    background-color: steelblue;
+    margin: 5px 0;
+    font-size:12px;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-list {
+    margin-top: 25px;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.album-title {
+    margin-top: 5px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.album {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    
+    background: #111111;
+    color: #fff;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.image-holder {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
